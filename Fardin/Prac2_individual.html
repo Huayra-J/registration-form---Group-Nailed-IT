@@ -11,74 +11,70 @@
 <body>
 
 
-  <form class="m_1">
-    <div class="Middle_box">
-      <h1> Registration Form </h1>
-      <label class="p_1"> Name:<span class="asterisk">*</span> </label>
-      <div>
-        <!--First input option under name-->
-        <input type="text" name="fname" placeholder="First name" class="input_2" required="required">
-        <!--second input option under name-->
-        <input type="text" name="lname" placeholder="Last name" class="input_2" required="required">
-      </div>
-      <div>
-        <label class="p_1"> Date of Birth <span class="asterisk">*</span></label>
-      </div>
-      <div>
-        <input type="date" name="date" class="input_2" required="required">
-      </div>
-      <div>
-        <label class="p_1">Gender: <span class="asterisk">*</span></label>
+  <form class="Middle_box">
+    <h1> Registration Form </h1>
+    <!--Spans used for inserting asterisk-->
+    <label class="Label_design"> Name:<span class="asterisk">*</span> </label>
+    <div>
+      <!--First input option under name-->
+      <input type="text" name="fname" placeholder="First name" class="input_2" required="required">
+      <!--second input option under name-->
+      <input type="text" name="lname" placeholder="Last name" class="input_2" required="required">
+    </div>
+    <div>
+      <label class="Label_design"> Date of Birth <span class="asterisk">*</span></label>
+    </div>
+    <div>
+      <input type="date" name="date" class="input_2" required="required">
+    </div>
+    <div>
+      <label class="Label_design">Gender: <span class="asterisk">*</span></label>
 
-        <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="male"> Male
 
-        <input type="radio" name="gender" value="female"> Female
-
-        <input type="radio" name="gender" value="female"> Other
-      </div> <br>
+      <input type="radio" name="gender" value="female"> Female
+    </div> <br>
 
 
-      <label class="p_1"> Address:<span class="asterisk">*</span> </label>
-      <div>
-        <!--input option for address bar-->
-        <input type="text" name="Address " placeholder="Address line " class="input_2" required="required">
-        <!--input option for address bar-->
-        <input type="text" name="Suburb" placeholder="Suburb" class="input_2" required="required">
-        <!--input option for address bar-->
-        <select class="input_1" required="required">
-          <!--input option for the adress-->
-          <option selected disabled>State</option>
-          <option value="ACT">Australian Capital Territory</option>
-          <!--This source copied from GIt hub (values of slected) -->
-          <option value="NSW">New South Wales</option>
-          <option value="NT ">Northern Territory</option>
-          <option value="QLD">Queensland</option>
-          <option value="SA ">South Australia</option>
-          <option value="TAS">Tasmania</option>
-          <option value="VIC">Victoria</option>
-          <option value="WA ">Western Australia</option>
-        </select>
+    <label class="Label_design"> Address:<span class="asterisk">*</span> </label>
+    <div>
+      <!--input option for address bar-->
+      <input type="text" name="Address " placeholder="Address line " class="input_2" required="required">
+      <!--input option for address bar-->
+      <input type="text" name="Suburb" placeholder="Suburb" class="input_2" required="required">
+      <!--input option for address bar-->
+      <select class="input_1" required="required">
+        <!--input option for the adress-->
+        <option selected disabled>State</option>
+        <option value="ACT">Australian Capital Territory</option>
+        <option value="NSW">New South Wales</option>
+        <option value="NT ">Northern Territory</option>
+        <option value="QLD">Queensland</option>
+        <option value="SA ">South Australia</option>
+        <option value="TAS">Tasmania</option>
+        <option value="VIC">Victoria</option>
+        <option value="WA ">Western Australia</option>
+        <!--This values are collected from a git hub source -->
+      </select>
 
+      <input type="number" name="Post_code" placeholder="Post code" class="input_2" required="required">
 
+    </div>
 
-        <input type="number" name="Post_code" placeholder="Post code" class="input_2" required="required">
+    <label class="Label_design">Phone</label>
 
-      </div>
-      <label class="p_1">Phone</label>
+    <div>
+      <input type="tel" name="Phone_number" placeholder=" (04) XXXX XXXX" class="input_2">
+    </div>
 
-      <div>
-        <input type="tel" name="Phone_number" placeholder=" (04) XXXX XXXX" class="input_2">
-      </div>
+    <label class="Label_design">Email <span class="asterisk">*</span> </label>
 
-      <label class="p_1">Email <span class="asterisk">*</span> </label>
+    <div>
+      <input type="text" name="Email" placeholder="example@gmail.com" class="input_2">
+    </div>
 
-      <div>
-        <input type="text" name="Email" placeholder="example@gmail.com" class="input_2">
-      </div>
-
-      <div>
-        <button class="button_1" type="submit">Register</button>
-      </div>
+    <div>
+      <button class="button_1" type="submit">Register</button>
     </div>
   </form>
 </body>
