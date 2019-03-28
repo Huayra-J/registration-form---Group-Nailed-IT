@@ -17,15 +17,15 @@
     <label class="Label_design"> Name:<span class="asterisk">*</span> </label>
     <div>
       <!--First input option under name-->
-      <input type="text" name="fname" placeholder="First name" class="input_2" required="required">
+      <input id ="fame" type="text" name="fname" placeholder="First name" class="input_2" required="required">
       <!--second input option under name-->
-      <input type="text" name="lname" placeholder="Last name" class="input_2" required="required">
+      <input id="lname" type="text" name="lname" placeholder="Last name" class="input_2" required="required">
     </div>
     <div>
       <label class="Label_design"> Date of Birth <span class="asterisk">*</span></label>
     </div>
     <div>
-      <input type="date" name="date" class="input_2" required="required">
+      <input id="date" type="date" name="date" class="input_2" required="required">
     </div>
     <div>
       <label class="Label_design">Gender: <span class="asterisk">*</span></label>
@@ -39,11 +39,11 @@
     <label class="Label_design"> Address:<span class="asterisk">*</span> </label>
     <div>
       <!--input option for address bar-->
-      <input type="text" name="Address " placeholder="Address line " class="input_2" required="required">
+      <input id="add" type="text" name="Address " placeholder="Address line " class="input_2" required="required">
       <!--input option for address bar-->
-      <input type="text" name="Suburb" placeholder="Suburb" class="input_2" required="required">
+      <input id="sub" type="text" name="Suburb" placeholder="Suburb" class="input_2" required="required">
       <!--input option for address bar-->
-      <select class="input_1" required="required">
+      <select id="state" class="input_1" required="required">
         <!--input option for the adress-->
         <option selected disabled>State</option>
         <option value="ACT">Australian Capital Territory</option>
@@ -57,14 +57,14 @@
         <!--This values are collected from a git hub source -->
       </select>
 
-      <input type="number" name="Post_code" placeholder="Post code" class="input_2" required="required" maxlength="4">
+      <input id="pcode" type="number" name="Post_code" placeholder="Post code" class="input_2" required="required" maxlength="4">
 
     </div>
 
     <label class="Label_design">Phone</label>
 
     <div>
-      <input type="tel" name="Phone_number" placeholder=" (04) XXXX XXXX" class="input_2" maxlength="12">
+      <input id="pnumber" type="tel" name="Phone_number" placeholder=" (04) XXXX XXXX" class="input_2" maxlength="12">
     </div>
 
     <label class="Label_design">Email <span class="asterisk">*</span> </label>
