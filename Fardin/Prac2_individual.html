@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- -->
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="Style_sheet.css" />
+</head>
+
+<body>
+
+
+  <form class="m_1">
+    <div class="Middle_box">
+      <h1> Registration Form </h1>
+      <label class="p_1"> Name:<span class="asterisk">*</span> </label>
+      <div>
+        <!--First input option under name-->
+        <input type="text" name="fname" placeholder="First name" class="input_2" required>
+        <!--second input option under name-->
+        <input type="text" name="lname" placeholder="Last name" class="input_2" required>
+      </div>
+      <div>
+        <label class="p_1"> Date of Birth <span class="asterisk">*</span></label>
+      </div>
+      <div>
+        <input type="date" name="date" class="input_2" required>
+      </div>
+      <div>
+        <label class="p_1">Gender: <span class="asterisk">*</span></label>
+
+        <input type="radio" name="gender" value="male"> Male
+
+        <input type="radio" name="gender" value="female"> Female
+
+        <input type="radio" name="gender" value="female"> Other
+      </div> <br>
+
+
+      <label class="p_1"> Address:<span class="asterisk">*</span> </label>
+      <div>
+        <!--input option for address bar-->
+        <input type="text" name="Address " placeholder="Address line " class="input_2" required>
+        <!--input option for address bar-->
+        <input type="text" name="Suburb" placeholder="Suburb" class="input_2" required>
+        <!--input option for address bar-->
+        <select class="input_1" required>
+          <!--input option for the adress-->
+          <option selected disabled>State</option>
+          <option value="ACT">Australian Capital Territory</option>
+          <!--This source copied from GIt hub (values of slected) -->
+          <option value="NSW">New South Wales</option>
+          <option value="NT ">Northern Territory</option>
+          <option value="QLD">Queensland</option>
+          <option value="SA ">South Australia</option>
+          <option value="TAS">Tasmania</option>
+          <option value="VIC">Victoria</option>
+          <option value="WA ">Western Australia</option>
+        </select>
+
+
+
+        <input type="number" name="Post_code" placeholder="Post code" class="input_2" required>
+
+      </div>
+      <label class="p_1">Phone</label>
+
+      <div>
+        <input type="tel" name="Phone_number" placeholder=" (04) XXXX XXXX" class="input_2">
+      </div>
+
+      <label class="p_1">Email <span class="asterisk">*</span> </label>
+
+      <div>
+        <input type="text" name="Email" placeholder="example@gmail.com" class="input_2">
+      </div>
+
+      <div>
+        <button class="button_1" type="submit">Register</button>
+
+      </div>
+  </form>
+</body>
+
+</html>
