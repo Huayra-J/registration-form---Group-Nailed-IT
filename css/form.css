@@ -1,0 +1,49 @@
+body{
+	background-image:url(../images/bg.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	height: 100%;
+}
+
+h1{
+	
+}
+
+.form{
+	background-color: #211545;
+	border-radius: 20px;
+	margin-left: 15%;
+	margin-right: 15%;
+	min-width: 300px;
+}
+
+.card{
+	display: block;
+	width:100%;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.contact{
+	color: #FFFFFF;
+	margin-left: 15%;
+}
+
+input[type="text"],input[type="email"],input[type="tel"]{
+	margin-left: 15%;
+	margin-bottom: 2%;
+}
+
+#birthyear{
+	width: 10%;
+	margin-right: 15%
+}
+
+.select-menu{
+	margin-left: 15%;
+	margin-bottom: 2%;
+}
+
+.myButton {
+	margin-left: 15%;
+}
